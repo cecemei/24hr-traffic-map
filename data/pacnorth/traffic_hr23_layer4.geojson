@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "GeoJSON",
+"features": [
+{ "type": "Feature", "properties": { "A": 50933, "B": 663761, "DIRECTION": "S", "FUNC_CLASS": 1.0, "volume": 1237 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.32048000395298, 47.587510034441948 ], [ -122.320429995656013, 47.587030023336411 ] ] ] } },
+{ "type": "Feature", "properties": { "A": 209156, "B": 50933, "DIRECTION": "S", "FUNC_CLASS": 1.0, "volume": 1237 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.320539996027946, 47.587870016694069 ], [ -122.32048000395298, 47.587510034441948 ] ] ] } },
+{ "type": "Feature", "properties": { "A": 517515, "B": 663763, "DIRECTION": "S", "FUNC_CLASS": 1.0, "volume": 1237 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.320360004901886, 47.58610001206398 ], [ -122.320109978318214, 47.583600014448166 ] ] ] } },
+{ "type": "Feature", "properties": { "A": 548781, "B": 517515, "DIRECTION": "S", "FUNC_CLASS": 1.0, "volume": 1237 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.320379987359047, 47.586470022797585 ], [ -122.320360004901886, 47.58610001206398 ] ] ] } },
+{ "type": "Feature", "properties": { "A": 663761, "B": 548781, "DIRECTION": "S", "FUNC_CLASS": 1.0, "volume": 1237 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.320429995656013, 47.587030023336411 ], [ -122.320379987359047, 47.586470022797585 ] ] ] } },
+{ "type": "Feature", "properties": { "A": 663763, "B": 663764, "DIRECTION": "S", "FUNC_CLASS": 1.0, "volume": 1237 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.320109978318214, 47.583600014448166 ], [ -122.31954999268055, 47.58126001060009 ] ] ] } },
+{ "type": "Feature", "properties": { "A": 663764, "B": 209116, "DIRECTION": "S", "FUNC_CLASS": 1.0, "volume": 1237 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -122.31954999268055, 47.58126001060009 ], [ -122.319299980998039, 47.579070031642914 ] ] ] } }
+]
+}

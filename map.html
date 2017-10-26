@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <!-- EMOJI
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <!-- Mapbox GL
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js'></script>
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  
+  <link rel="icon" href="./image/favicon.ico">
+  <link href='./css/map-layout.css' rel='stylesheet' />
+  <title>&#9889;Dynampic Traffic Pattern</title>
+  
+</head>
+<body>
+
+  <div id="map"></div>
+
+ 
+  <div class='map-overlay-top-left'>
+    <h2><i class="em em-vertical_traffic_light"></i><i class="em em-red_car"></i><i class="em em-blue_car"></i> Traffic at </h2>
+    <input id='slider' type='range' min='0' max='23' step='1' value='0' />
+    <label id='hour'></label>
+  </div>
+  
+  <div class='map-overlay-bottom-left'>
+    <h2 id='sourceStatus'>Map </h2>
+    
+  </div>
+
+  <!--pre id='info'>&#9889;&#9889;&#9889; Click anywhere on the map to start animation! &#9889;&#9889;&#9889;</pre-->
+  <script src='./traffic_volume.js'></script>
+</body>
+</html>
